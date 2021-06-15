@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "application that uses file API to analyze external files uploaded by the user",
+  "main": "size.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC"
+}

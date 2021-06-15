@@ -1,0 +1,47 @@
+1. Inside which HTML element do we put the JavaScript?
+A.<scripting>
+B.<js>
+C.<script>
+D.<JavaScript>
+
+2.Which of these is not a JavaScript library?
+A.Baskin
+B.Angular
+C.JQuery
+D.Bootstrap
+
+3.How would you write an array in JavaScript?
+A.var numbers = (1:"5", 2:"8", 3:"2")
+B.var numbers = ["5", "8", "2"]
+C.var numbers = "5", "8", "2"
+D.var numbers = 1 = "5", 2 = "8", 3 = "2"
+
+4.Which event occurs when an HTML element is clicked?
+A.onMouseClick
+B.onChange
+C.onClick
+D.onSelect
+
+5.How would you declare a JavaScript variable?
+A.V shirtSize
+B.var shirtSize
+C.var = shirtSize
+D.variable shirtSize
+
+6.which symbol assigns a value to a veriable?
+A.====
+B.x
+C.-
+D.=
+
+7.Where can you insert JavaScript into an application?
+A.in the <head> of an html doc
+B.in a standalone .js file
+C.in the <body> of an html doc
+D.in either the <head> or <body> sections of an html doc
+
+8.How do you call a function named "myHouse"?
+A.call fun myHouse()
+B.myHouse()
+C.call function myHouse()
+D.call myHouse()
