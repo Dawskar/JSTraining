@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Finding HTML Elements</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="animation.js"></script>
+</head>
+
+<body>
+    <h2>Finding HTML Elements</h2>
+
+    <p>Using JavaScript to find HTML elements is a crucial part of making a dynamic application.</p>
+
+    <form>
+        <img id = "car" src = "images/car.jpg" data-alt-src="images/carRollover.jpg"/>
+        <p>Click the button to move the car forward</p>
+        <input type = "button" value = "Move the Car" onclick = "moveRight();" />
+     </form>
+
+     <form>
+        <p>Hit the gas to allow the car to automatically move, hit the brakes to stop the car</p>
+        <input type = "button" value = "Gas" onclick = "automaticRight();" />
+        <input type = "button" value = "brakes" onclick = "stop();" />
+     </form>      
+
+     <form>
+        <p>Hit the gas to allow the car to automatically move, notice how setInterval interacts differently with the car object</p>
+        <input type = "button" value = "Gas" onclick = "rapidRight();" />
+        <input type = "button" value = "brakes" onclick = "stop();" />
+     </form>      
+
+</body>
+
+</html>

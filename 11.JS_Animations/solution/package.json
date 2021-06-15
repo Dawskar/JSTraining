@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Animating an object using both setTimeout and serInterval",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC"
+}

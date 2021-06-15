@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Practice using for, while, and do-while loops",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC"
+}

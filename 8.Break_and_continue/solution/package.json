@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Expirementing with break and continue statements",
+  "main": "break.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC"
+}

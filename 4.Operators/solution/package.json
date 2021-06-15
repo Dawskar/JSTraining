@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Testing to see how different operators work within JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC"
+}

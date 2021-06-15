@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Application that allows users to enter info, save it as a file, and open other files",
+  "main": "saveAndLoad.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC"
+}

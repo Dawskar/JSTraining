@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Finding HTML Elements</title>
+</head>
+
+<body>
+    <h2>Finding HTML Elements</h2>
+
+    <p>Using JavaScript to find HTML elements is a crucial part of making a dynamic application.</p>
+    <p>In this exercise, we have a shopping list that needs to be changed.</p>
+    <p>We don't need the salad dressing, so we need to find that list item and replace it with 'Olive Oil' using a
+        Javascript Function.</p>
+
+    <p><b>My Shopping List</b></p>
+    <ul id="shoppingList">
+        <li>Eggs</li>
+        <li>Bananas</li>
+        <li>Coffee Grounds</li>
+        <li>Grape Juice</li>
+        <li>Shrimp</li>
+        <li>Salad Dressing</li>
+        <li>Ground Beef</li>
+        <li>Popcorn</li>
+    </ul>
+
+    <p>When you select the button below, it will change one of the shopping list items (index 5).</p>
+
+    <button onclick="findItem()">Try it</button>
+    <button id="change">Change BG Color</button>
+    <input type="text" id="item" />
+    <button onclick="addItem()">add item</button>
+    <button onclick="removeItem()">remove item</button>
+
+    <p id="expression"></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="getElements.js"></script>
+
+</body>
+
+</html>

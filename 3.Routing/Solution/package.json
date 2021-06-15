@@ -1,0 +1,16 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Extension of the app from #2, we will focus on routing in this step",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "server": "^1.0.33"
+  }
+}

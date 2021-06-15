@@ -1,0 +1,16 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Building your first app with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "server": "^1.0.33"
+  }
+}

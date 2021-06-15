@@ -1,0 +1,12 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Switch statement exercise",
+  "main": "index.html",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "author": "Cameron Cherenzia",
+  "license": "ISC"
+}

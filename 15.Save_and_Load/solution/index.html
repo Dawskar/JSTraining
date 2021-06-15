@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Save & Load Files</title>
+</head>
+
+<body>
+    <h2>Save & Load Files</h2>
+
+    <p>This application allows the user to type text into a text entry box, name the .txt file and save it to their
+        machine.</p>
+    <p>They are also able to browse their machine for a .txt file and load it into the application.</p>
+
+    <table>
+        <tr>
+            <td>Text to Save:</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <textarea id="inputText" style="width:512px;height:256px"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Filename to Save As:</td>
+            <td><input id="fileName"></input></td>
+            <td><button onclick="saveTextAsFile()">Save Text to File</button></td>
+        </tr>
+        <tr>
+            <td>Select a File to Load:</td>
+            <td><input type="file" id="load">
+            <td><button onclick="loadFileAsText()">Load Selected File</button>
+            <td>
+        </tr>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="saveAndLoad.js"></script>
+
+
+
+
+</body>
+
+</html>

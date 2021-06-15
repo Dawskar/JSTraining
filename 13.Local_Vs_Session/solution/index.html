@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Local Storage Vs Session Storage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="localStorage.js"></script>
+    <script src="sessionStorage.js"></script>
+</head>
+
+<body>
+    <h2>Local Storage Vs Session Storage</h2>
+
+    <p>In this exercise, we will build a click counter first using local storage, then a second counter using session
+        storage to compare.</p>
+
+    <h3>Local Storage</h3>
+    <p><button onclick="localClicks()" type="button">Click Here</button></p>
+    <div id="localResult"></div>
+    <p>Each time that the button is clicked, the click counter will increase.</p>
+    <p>If you refresh the page and click, you'll see that your clicks carried over.</p>
+    <p>Close this window and run the application again, you'll see that your clicks still did not reset.</p>
+    <p>your clicks are being stored locally, so no matter what you do your clicks will only go up from here.</p>
+
+    <h3>Session Storage</h3>
+    <p><button onclick="sessionClicks()" type="button">Click Here</button></p>
+    <div id="sessionResult"></div>
+    <p>Similarly to local storage, each time that the button is clicked, the click counter will increase.</p>
+    <p>If you refresh the page and click, you'll see that your clicks also carried over.</p>
+    <p>However, if you close the window and rerun the application, you'll see that your clicks started over.</p>
+    <p>Session storage will persist as long as the session is still taking place. When the window is closed, the session
+        ends.</p>
+    <p>Session storage is very useful when storing user information and decisions, since once the user signs out the
+        session ends and all sensitive info disappears with it.</p>
+
+</body>
+
+</html>
